@@ -1,6 +1,5 @@
-/*
- * TroopJS net/ajax/service
- * @license MIT http://troopjs.mit-license.org/ © Mikael Karon mailto:mikael@karon.se
+/**
+ * @license MIT http://troopjs.mit-license.org/
  */
 define([
 	"troopjs-core/component/service",
@@ -14,13 +13,17 @@ define([
 	 * @class net.ajax.service
 	 * @extends core.component.service
 	 */
+
+	/**
+	 * @method constructor
+	 */
 	return Service.extend({
 		"displayName" : "net/ajax/service",
 
 		/**
 		 * Make ajax request.
 		 * @event
-		 * @param settings
+		 * @param {Object} settings
 		 */
 		"hub/ajax" : function ajax(settings) {
 			// Request
