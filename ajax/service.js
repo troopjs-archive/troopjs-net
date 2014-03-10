@@ -21,9 +21,15 @@ define([
 		"displayName" : "net/ajax/service",
 
 		/**
+		 * The ajax event
+		 * @event hub/ajax
+		 * @param {Object} settings Ajax settings
+		 */
+
+		/**
 		 * Make ajax request.
-		 * @event
-		 * @param {Object} settings
+		 * @handler
+		 * @inheritdoc #event-hub/ajax
 		 */
 		"hub/ajax" : function ajax(settings) {
 			// Request
