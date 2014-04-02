@@ -13,7 +13,7 @@
     "test"
   ],
   "dependencies": {
-    "troopjs-core": "~3",
+    "troopjs-core": ">=2",
     "troopjs-utils": "~2",
     "jquery": ">=1.7.0 <2.1.0"
   }
