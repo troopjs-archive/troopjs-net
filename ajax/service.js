@@ -4,7 +4,7 @@
 define([
 	"troopjs-core/component/service",
 	"jquery",
-	"troopjs-utils/merge"
+	"troopjs-util/merge"
 ], function (Service, $, merge) {
 	"use strict";
 
