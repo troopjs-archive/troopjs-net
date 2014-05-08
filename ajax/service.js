@@ -11,7 +11,7 @@ define([
 	/**
 	 * Provides ajax as a service
 	 * @class net.ajax.service
-	 * @extends core.component.service
+	 * @extend core.component.service
 	 */
 
 	/**

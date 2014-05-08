@@ -1,6 +1,6 @@
 {
   "name": "troopjs-net",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "authors": [
     "Mikael Karon"
   ],
@@ -15,6 +15,6 @@
   "dependencies": {
     "troopjs-core": "~3",
     "troopjs-util": "~3",
-    "jquery": ">=1.7.0 <2.1.0"
+    "jquery": "~2"
   }
 }
